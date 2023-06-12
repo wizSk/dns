@@ -1,0 +1,11 @@
+<details aria-expanded="false" class="faq__panel">
+
+    <summary class="faq__label">
+        What is an <span class="arabic">اسم</span>
+    </summary>
+
+    <div class="faq__panel-body">
+        <p class="faq__panel-answer">It's an name, idea, place, thing, adverb, adjetive and more</p>
+    </div>
+
+</details>

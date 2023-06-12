@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/helper/style.css">
+    <link rel="stylesheet" href="/helper/index.css">
+    <link rel="stylesheet" href="/helper/nav.css">
+    <script src="/helper/main.js" defer></script>
+    <title>Nahw</title>
+</head>
+<body>
+    <div id="nav_div"></div>
+    <header class="faq_header">
+        <h1 class="faq_header-title">Dream Nahw Notes</h2>
+    </header>
+    <div class="link_container">
+        <ul id="links">
+        </ul>
+    </div>
+
+    <script>
+        const count = 1;
+        const pre = "/nahw/"
+
+        let links = "";
+        for (let i = 1; i <= count; i++){
+            links+= `<li><a href="${i}">Day ${i}</a></li>`
+        }
+        document.getElementById("links").innerHTML = links;
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+@font-face {
+    font-family: arabic-font;
+    src: url(/assetes/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: english-font;
+    src: url(/assetes/fonts/Lato-Regular.ttf);
+}
+
+
+body{
+    font-family: english-font ,sans-serif;
+}
+
+.light {
+    background-color: #f4f5f6;
+    color: #1e1f26;
+}
+
+.dark {
+    color: #f4f5f6;
+    background-color: #1e1f26;
+}
+
+.rust {
+    background-color: hsl(60, 9%, 87%);
+    color: #1e1f26;
+}
+
+.faq_header{
+    margin-top: 4.9rem;
+}
+.faq_header-title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.question-body {
+    font-size: 1.2em;
+    margin: 1rem 10rem;
+}
+
+.faq__body {
+    min-width: 70%;
+}
+.faq__panel{
+    max-width: inherit;
+    padding: 7px 21px;
+    margin-bottom: 24px;
+    border: 1px solid #777e91;
+    border-radius: 7px;
+}
+.faq__label{
+    padding-block: 7px;
+    cursor: pointer;
+}
+.faq__panel-answer{
+    padding-bottom: 7px;
+}
+
+.arabic {
+    font-family: arabic-font;
+}
+
+
+
+@media (max-width: 768px) {
+    .question-body {
+        margin: 1rem 1rem;
+    }
+
+    .faq__body {
+        min-width: 90%;
+    }
+
+}
+

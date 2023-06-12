@@ -1,0 +1,57 @@
+ .navbar {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     background-color: rgb(52, 58, 64);
+     color: #fff;
+     transition: top 0.3s ease-in-out;
+     padding: 0.8rem;
+ }
+
+ .navbar ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .navbar li {
+     margin: 0 10px;
+ }
+ .navbar li:last-child {
+    margin-right: 1.8rem;
+ }
+
+ #fontPlus {
+    margin-left: auto;
+ }
+
+ .navbar a {
+     color: #fff;
+     text-decoration: none;
+ }
+
+ .content {
+     margin-top: 100px;
+     /* Add margin-top to push content down below the navbar */
+ }
+
+ .show-nav {
+     top: 0;
+ }
+
+ .hide-nav {
+     top: -100px;
+ }
+ 
+ .svg_icon svg {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#theme-tgl {
+    cursor: pointer;
+}
