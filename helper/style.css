@@ -67,6 +67,10 @@ body{
     font-family: arabic-font;
 }
 
+.english {
+    font-family: english-font ,sans-serif;
+}
+
 
 
 @media (max-width: 768px) {

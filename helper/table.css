@@ -1,0 +1,32 @@
+.table, .table ul, .table li {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0;
+}
+
+.table {
+  /* border: 1px solid #777e91; */
+  text-align: left;
+  align-items: left;
+  width: fit-content;
+  scroll-behavior: smooth;
+  overflow: scroll;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+.th {
+  font-weight: bold;
+}
+
+.table ul {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.table li {
+  padding: 0.5rem 1rem;
+  /* background-color: red; */
+}
