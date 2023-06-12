@@ -1,11 +1,11 @@
 @font-face {
     font-family: arabic-font;
-    src: url(/assetes/fonts/Lato-Regular.ttf);
+    src: url(/assetes/fonts/Utmani.woff2);
 }
 
 @font-face {
     font-family: english-font;
-    src: url(/assetes/fonts/Lato-Regular.ttf);
+    src: url(/assetes/fonts/ProximaVara.woff2);
 }
 
 
@@ -38,7 +38,7 @@ body{
 }
 
 .question-body {
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin: 1rem 10rem;
 }
 
@@ -57,7 +57,10 @@ body{
     cursor: pointer;
 }
 .faq__panel-answer{
-    padding-bottom: 7px;
+    margin: 10px 0;
+    margin-left: 15px;
+    padding-bottom: 4px;
+    line-height: 1.5em;
 }
 
 .arabic {
@@ -68,6 +71,7 @@ body{
 
 @media (max-width: 768px) {
     .question-body {
+        font-size: 1.2em;
         margin: 1rem 1rem;
     }
 
@@ -75,5 +79,9 @@ body{
         min-width: 90%;
     }
 
+    .faq__panel-answer {
+        margin: 9px 0;
+        margin-left: 15px;
+        line-height: 1.5em;
+    }
 }
-
